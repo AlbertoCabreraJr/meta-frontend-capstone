@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  padding: 40px 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+nav ul li {
+  font-weight: 700;
+}
+
+nav ul li a {
+  color: black;
+}
+
+.hero-section {
+  display: flex;
+  background-color: #495e57;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.hero-details {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.hero-title {
+  color: #f4ce14;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero-address {
+  font-weight: 600;
+  font-size: 18px;
+  color: #edefee;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  color: #edefee;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.hero-button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #f4ce14;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+}
+
+.hero-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  z-index: 100;
+}
